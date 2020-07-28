@@ -55,19 +55,15 @@ How to Use:
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Online Redirection by Devomman</title>
 <script type="text/javascript"> // <![CDATA[
-
 //iPhone User:
-if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/Mobile Safari/i)) ) {
-    window.location = "https://apps.apple.com/app/idxxxxx-your-app-here-xxxxx";
-}
+if((navigator.userAgent.match(/iPhone|iPad/i))) {
+    window.location = "https://apps.apple.com/app/xxxxxxxx";}
 //Android User:
-else if((navigator.userAgent.match(/android/i)) || (navigator.userAgent.match(/Tablet/i))) {
-    window.location = "https://play.google.com/store/apps/details?id=idxxxxx-your-app-here-xxxxx";
-}
+else if((navigator.userAgent.match(/android|Tablet/i))) {
+    window.location = "https://play.google.com/store/apps/details?xxxxxxxxxxx";}
+//Website User:
 else  {
-    window.location = "http://devomman.com";
-}
-
+    window.location = "http://devomman.com";}
 // This Code Generate by Muhammad Omman
 // email:devomman@gmail.com
 </script>
