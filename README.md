@@ -48,6 +48,32 @@ How to Use:
 
 
 2) Download the redirect-app.html and Edit the code as you need
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Online Redirection by Devomman</title>
+<script type="text/javascript"> // <![CDATA[
+
+//iPhone User:
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/Mobile Safari/i)) ) {
+    window.location = "https://apps.apple.com/app/idxxxxx-your-app-here-xxxxx";
+}
+//Android User:
+else if((navigator.userAgent.match(/android/i)) || (navigator.userAgent.match(/Tablet/i))) {
+    window.location = "https://play.google.com/store/apps/details?id=idxxxxx-your-app-here-xxxxx";
+}
+else  {
+    window.location = "http://devomman.com";
+}
+
+// This Code Generate by Muhammad Omman
+// email:devomman@gmail.com
+</script>
+</body>
+</html>
+```
 3) Upload to your host
 Ex. yourdomain.com/redirect-app.html
 4) Goto your facebook page add a button then use app and add yourdomain.com/redirect-app.html link
